@@ -9,7 +9,7 @@ const submitBtn = document.getElementById('submit-btn').addEventListener('click'
 
 	let totalGrades = parseInt(accounting) + parseInt(management) + parseInt(marketing) + parseInt(finance);
 
-	if (accounting < 0 || management < 0 || marketing < 0 || finance < 0) {
+	if (accounting <= 0 || management <= 0 || marketing <= 0 || finance <= 0) {
 		alert('Please enter valid marks');
 		return;
 	}
