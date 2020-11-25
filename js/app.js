@@ -1,7 +1,7 @@
 const submitBtn = document.getElementById('submit-btn').addEventListener('click', function () {
 	// value access
 	let accounting = document.getElementById('accounting').value;
-	let am = parseInt(accounting);
+	
 	let management = document.getElementById('management').value;
 	let marketing = document.getElementById('marketing').value;
 	let finance = document.getElementById('finance').value;
